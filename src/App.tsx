@@ -92,6 +92,10 @@ export default function App() {
           </div>
 
           <div className="content-grid__standings">
+            <section className="clip-studio-panel">
+              <h3>✂️ Clip &amp; Share</h3>
+              <div id="clip-library" className="clip-library" />
+            </section>
             <PlayerStandings
               tourFilter={tourFilter}
               selectedTournamentId={selectedTournamentId}

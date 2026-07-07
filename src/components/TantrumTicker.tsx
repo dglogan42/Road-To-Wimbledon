@@ -1,5 +1,6 @@
 import { getPlayersByTour } from '../data/players';
 import { getRecentTantrums } from '../data/drama';
+import { ClipShareButton } from './ClipShareButton';
 
 interface TantrumTickerProps {
   tournamentId: string;
@@ -18,6 +19,11 @@ export function TantrumTicker({ tournamentId, tournamentName }: TantrumTickerPro
       {tantrum.severity === 'mcenroe-level' && (
         <em className="tantrum-ticker__ycbs"> — You cannot be serious!</em>
       )}
+      <ClipShareButton
+        text={`${player.name}: ${tantrum.quote}`}
+        announcerName="McEnroe Watch"
+        announcer="mcenroe"
+      />
     </span>
   ));
 
