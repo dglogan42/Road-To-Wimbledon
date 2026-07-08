@@ -120,3 +120,23 @@ MIT — see [LICENSE](LICENSE).
 - Tournament calendar inspired by the ATP/WTA and Grand Slam schedules
 - Celebrity sightings are fictional fan scenarios for entertainment — not reporting of real attendance
 - *"You cannot be serious!"* — John McEnroe, 1981. Used here with affection and zero commercial intent
+
+## Multi-platform (web · iOS · Android · Windows · Mac · Linux)
+
+This app is a **Progressive Web App (PWA)** — installable from the browser on phones and desktops.
+
+| Platform | How |
+|----------|-----|
+| **Web** | Any modern browser |
+| **iOS** | Safari → Share → **Add to Home Screen** |
+| **Android** | Chrome → **Install app** / Add to Home screen |
+| **Windows / Mac / Linux** | Chrome or Edge → Install from address bar |
+
+```bash
+npm start
+# → http://localhost:3476
+# Use the Network URL on a phone (same Wi‑Fi)
+```
+
+Serve over **HTTPS** (or localhost) for install + offline. Core files are cached by `sw.js`.
+

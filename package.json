@@ -2,7 +2,7 @@
   "name": "road-to-wimbledon",
   "private": true,
   "version": "0.0.0",
-  "description": "Road to Wimbledon — track ATP & WTA players through every major meet on the grass-court season",
+  "description": "Road to Wimbledon \u2014 track ATP & WTA players through every major meet on the grass-court season",
   "license": "MIT",
   "type": "module",
   "scripts": {
