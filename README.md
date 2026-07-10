@@ -140,3 +140,7 @@ npm start
 
 Serve over **HTTPS** (or localhost) for install + offline. Core files are cached by `sw.js`.
 
+
+## Media policy
+
+Ship original / free UI art only. Do not commit scraped site dumps, broadcaster logos, or third-party product images.

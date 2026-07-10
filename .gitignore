@@ -2,3 +2,9 @@ node_modules
 dist
 *.local
 .DS_Store
+# Scraped third-party media / site dumps (do not ship)
+*_files/
+*.webarchive
+product_*.png
+product_*.jpg
+*_logo_Positive*
